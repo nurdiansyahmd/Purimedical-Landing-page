@@ -1,0 +1,38 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    margin-top: 3%;
+    margin-left: auto;
+}
+
+p.our{
+    max-width: 80%;
+    margin: auto;
+}
+
+.section-1{
+    margin-top: 10%;
+}
+.wrapper{
+    width: 50%;
+    height: auto;
+    float: right;
+}
+
+.row .m-t-6{
+    margin-top: 7rem;
+}
+
+.text-1{
+    max-width: 60%;
+}
+.images-group{
+    width: 25%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.text-group{
+    max-width: 300px;
+}
