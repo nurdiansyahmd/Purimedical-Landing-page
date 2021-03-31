@@ -21,8 +21,16 @@ p.our{
     float: right;
 }
 
+.img-medic-2{
+    margin-top: 150px;
+}
+
 .row .m-t-6{
     margin-top: 7rem;
+}
+.row .m-t-7{
+    margin-top: 15rem;
+    max-width: 25rem;
 }
 
 .text-1{
