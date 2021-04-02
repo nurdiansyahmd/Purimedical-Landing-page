@@ -1,5 +1,5 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 
 .header{
@@ -32,9 +32,12 @@ p.our{
     margin-top: 15rem;
     max-width: 25rem;
 }
-
+.logo{
+    margin-right: 0.3em;
+}
 .text-1{
     max-width: 60%;
+    margin-top: 2em;
 }
 .images-group{
     width: 25%;
