@@ -5,38 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Puri - Medical</title>
+    <title>PRUDICAL</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md  navbar-light justify-content-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white custom-nav">
             <div class="container">
-                <img src="images/logo.png" class="logo" alt="logo" width="20px" height="20px">
-                <a class="navbar-brand" href="#"><b>PuriMedical</b></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="logo">PRUDICAL
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
-                        <li class="nav-item px-2">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item px-2">
+                        <li class="nav-item">
                             <a class="nav-link" href="#">Find a doctor</a>
                         </li>
-                        <li class="nav-item px-2">
+                        <li class="nav-item">
                             <a class="nav-link" href="#">Apps</a>
                         </li>
-                        <li class="nav-item px-2">
+                        <li class="nav-item">
                             <a class="nav-link" href="#">Testimonials</a>
                         </li>
-                        <li class="nav-item px-2">
+                        <li class="nav-item">
                             <a class="nav-link" href="#">About us</a>
                         </li>
                     </ul>
@@ -44,136 +43,282 @@
             </div>
         </nav>
     </header>
-    <div>
-        <div class="container header">
-            <div class="row">
-                <div class="col-lg-6 m-t-6">
-                    <h1><b>Virtual healthcare<br>for you</b></h1>
-                    <p class="text-muted text-1">Purical provides progressive, and affordable
-                        healthcare, accessible on mobile
-                        and online for
-                        everyone</p>
-                    <button type="button" class="btn btn-outline-primary">Consult today</button>
-                </div>
-                <div class="wrapper">
-                    <div class="col">
-                        <img src="images/medical.png" class="img-fluid" alt="Medical">
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <h1>Virtual healthcare for you</h1>
+                        <p>Prudical provides progressive, and affordable healthcare,accessible on mobile and online for
+                            everyone</p>
+                        <button class="btn btn-primary" type="submit">Consult today</button>
                     </div>
                 </div>
             </div>
+        </section>
+        <div class="container custom-text">
+            <h2>Our services</h2>
+            <p>We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo
+                treatment with our highly qualified doctors you can consult with us which type of service is suitable
+                for you health</p>
         </div>
 
-        <div class="container section-1">
-            <h3 class="text-center"><b>Our services</b></h3>
-            <p class="text-muted text-center our">We provided to you the best choices for you. Adjust it to your health
-                needs and make sure your undergo treatment with our highly qualified doctors you can consult with us
-                wich type of service is suitable for your health
-            </p>
-        </div>
+        <section class="section-column">
+            <div class="container" id="custom-col">
+                <div class="row ">
+                    <div class="col-lg-4 col-md-5 col-7">
+                        <div class="card">
+                            <img src="images/search.png" alt="search doctor">
+                            <div class="card-body">
+                                <h5 class="card-title">Search doctor</h5>
+                                <div class="card-text">Choose your doctor from thousands of specialist, general, and
+                                    trusted
+                                    hospitals</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-5 col-7">
+                        <div class="card">
+                            <img src="images/pharmacy.png" alt="pharmacy">
+                            <div class="card-body">
+                                <h5 class="card-title">Online pharmacy</h5>
+                                <div class="card-text">Choose your doctor from thousands of specialist, general, and
+                                    trusted
+                                    hospitals</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-5 col-7">
+                        <div class="card">
+                            <img src="images/consultation.png" alt="consultation">
+                            <div class="card-body">
+                                <h5 class="card-title">Consultation</h5>
+                                <div class="card-text">Choose your doctor from thousands of specialist, general, and
+                                    trusted
+                                    hospitals</div>
+                            </div>
+                        </div>
+                    </div>
 
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col d-flex justify-content-center">
-                    <div class="card border-4">
-                        <img src="images/search.png" class="images-group" alt="search doctor">
-                        <div class="card-body">
-                            <h5 class="card-title"><b>Search doctor</b></h5>
-                            <p class="card-text text-group text-muted">Choose your doctor from thousands of special,
-                                general and
-                                trusted
-                                hospitals
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col d-flex justify-content-center">
-                    <div class="card border-4">
-                        <img src="images/pharmacy.png" class="images-group" alt="online pharmacy">
-                        <div class="card-body">
-                            <h5 class="card-title">Online pharmacy</h5>
-                            <p class="card-text text-group text-muted"> Buy your medicines with our mobile applicatuin
-                                with a
-                                simple delivery system
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col d-flex justify-content-center">
-                    <div class="card border-4">
-                        <img src="images/consultation.png" class="images-group" alt="consultation">
-                        <div class="card-body">
-                            <h5 class="card-title">consultation</h5>
-                            <p class="card-text text-group text-muted">Free consultation with our trusted doctors and
-                                get the best
-                                recomendations
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Force next columns to break to new line at md breakpoint and up -->
-                <div class="w-100 d-none d-md-block mt-4"></div>
+                    <div class="w-100 d-none d-md-block"></div>
 
-                <div class="col d-flex justify-content-center">
-                    <div class="card border-4">
-                        <img src="images/detail.png" class="images-group" alt="details info">
-                        <div class="card-body">
-                            <h5 class="card-title">Details info</h5>
-                            <p class="card-text text-group text-muted">Free consultation with our trusted doctors and
-                                get the best
-                                recomendations
-                            </p>
+                    <div class="col-lg-4 col-md-5 col-7">
+                        <div class="card">
+                            <img src="images/detail.png" alt="detail">
+                            <div class="card-body">
+                                <h5 class="card-title">Details info</h5>
+                                <div class="card-text">Choose your doctor from thousands of specialist, general, and
+                                    trusted
+                                    hospitals</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col d-flex justify-content-center">
-                    <div class="card border-4">
-                        <img src="images/emergency.png" class="images-group" alt="consultation">
-                        <div class="card-body">
-                            <h5 class="card-title">Emergency</h5>
-                            <p class="card-text text-group text-muted">You can get 24/7 urgent care for yourself on your
-                                children
-                                and your lovely family
-                            </p>
+                    <div class="col-lg-4 col-md-5 col-7">
+                        <div class="card">
+                            <img src="images/emergency.png" alt="emergency">
+                            <div class="card-body">
+                                <h5 class="card-title">Emergency</h5>
+                                <div class="card-text">Choose your doctor from thousands of specialist, general, and
+                                    trusted
+                                    hospitals</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col d-flex justify-content-center">
-                    <div class="card border-4">
-                        <img src="images/tracking.png" class="images-group" alt="tracking">
-                        <div class="card-body">
-                            <h5 class="card-title">Tracking</h5>
-                            <p class="card-text text-group text-muted">Track and save your medical history and health
-                                data
-                            </p>
+                    <div class="col-lg-4 col-md-5 col-7">
+                        <div class="card">
+                            <img src="images/tracking.png" alt="tracking">
+                            <div class="card-body">
+                                <h5 class="card-title">Tracking</h5>
+                                <div class="card-text">Choose your doctor from thousands of specialist, general, and
+                                    trusted
+                                    hospitals</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="text-center mt-5">
-            <button type="button" class="btn btn-outline-primary">Learn more</button>
+        </section>
+        <div class="container" style="text-align: center; margin-top: 4em;">
+            <button class="btn btn-outline-primary tombol-2" type="submit">Learn more</button>
         </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="wrapper img-medic-2">
-                    <div class="col px-5">
-                        <img src="images/medical-2.png" class="img-fluid" alt="medical">
-                    </div>
-                </div>
-                <div class="col m-t-7">
-                    <h1>Leading healthcare providers</h1>
-                    <p class="text-muted">Purical provides progressive, and affordable
-                        healthcare, accessible on mobile
-                        and online for
-                        everyone. To us, it's not just work, We take pride in the solutions we deliver
+        <section class="section-2">
+            <div class="container">
+                <div class="clearfix">
+                    <img src="images/medical-2.png" class="col-md-6 float-md-start mb-3 ms-md-3" alt="...">
+                    <h4>Leading healthcare provider</h4>
+                    <p>
+                        A paragraph of placeholder text. We're using it here to show the use of the clearfix class.
+                        We're
+                        adding quite a few meaningless phrases here to demonstrate how the columns interact here
+                        with
+                        the
+                        floated image.
                     </p>
-                    <button type="button" class="btn btn-outline-primary">Learn more</button>
+                    <button type="button" class="btn btn-outline-primary tombol-2">Learn more</button>
                 </div>
             </div>
+        </section>
+
+        <section class="section-3">
+            <div class="container">
+                <div class="clearfix">
+                    <img src="images/trafalgar-illustration sec03 1.png" class="col-md-6 float-md-end mb-3 ms-md-3"
+                        alt="...">
+                    <h4>Leading healthcare provider</h4>
+                    <p>
+                        A paragraph of placeholder text. We're using it here to show the use of the clearfix class.
+                        We're
+                        adding quite a few meaningless phrases here to demonstrate how the columns interact here
+                        with
+                        the
+                        floated image.
+                    </p>
+                    <button type="button" class="btn btn-outline-primary tombol-2">Download</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-4">
+            <div class="container" id="bg-grad">
+                <h4>What our customer are saying</h4>
+
+                <div class="row">
+                    <div class="col-12 col-md-5 col-lg-5">
+                        <img src="images/customer.png" alt="customer">
+                        <p class="title-text">Edward Newgate</p>
+                        <p>Founder Circle</p>
+                    </div>
+                    <div class="col">
+                        <p class="sub-text">
+                            “Our dedicated patient engagement app and
+                            web portal allow you to access information instantaneously (no tedeous form, long calls,
+                            or administrative hassle) and securely”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-5">
+            <div class="container">
+                <h2>Check out our latest article</h2>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-5 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/image 1.png" class="card-img-top" alt="article">
+                            <div class="card-body">
+                                <h5 class="card-title">Disease detection, check up in the laboratory</h5>
+                                <p class="card-text">In this case, the role of the health laboratory is very important
+                                    to do a disease detection...</p>
+                                <button type="button" class="btn btn-outline-primary">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/image 2.png" class="card-img-top" alt="article">
+                            <div class="card-body">
+                                <h5 class="card-title">Herbal medicines that are safe for consumption</h5>
+                                <p class="card-text">Herbal medicine is very widely used at this time because of its
+                                    very good for your health...</p>
+                                <button type="button" class="btn btn-outline-primary">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/image 3.png" class="card-img-top" alt="article">
+                            <div class="card-body">
+                                <h5 class="card-title">Natural care for healthy facial skin</h5>
+                                <p class="card-text">A healthy lifestyle should start form now and also for your skin
+                                    health the are some...</p>
+                                <button type="button" class="btn btn-outline-primary">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="text-align: center; margin-top: 4em;">
+                <button class="btn btn-outline-primary tombol-2" type="submit">View all</button>
+            </div>
         </div>
-        </main>
-        <script src="js/bootstrap.min.js"></script>
+
+        <footer>
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5>Prudical</h5>
+
+                        <p>
+                            Prudical provides progressive, and affordable healthcare, accessible on mobile and online
+                            for everyone
+                        </p>
+
+                        <p>&copy; Prudical LTD 2021. All rights reserved</p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                        <h5 class="mb-0">Company</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!" class="text-white">About</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Testimonials</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Find a doctor</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Apps</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                        <h5 class="mb-0">Region</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!" class="text-white">Indonesia</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Singapore</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Hongkong</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Canada</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                        <h5 class="mb-0">Help</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!" class="text-white">Help center</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Contact support</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Instructions</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">How its works</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
